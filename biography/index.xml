@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biography on Groundwater modeling</title>
+    <link>http://www.eugeniopescimoro.xyz/biography/</link>
+    <description>Recent content in Biography on Groundwater modeling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 May 2020 22:45:12 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.eugeniopescimoro.xyz/biography/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Second Post</title>
+      <link>http://www.eugeniopescimoro.xyz/biography/my-second-post/</link>
+      <pubDate>Mon, 18 May 2020 12:57:07 +0100</pubDate>
+      
+      <guid>http://www.eugeniopescimoro.xyz/biography/my-second-post/</guid>
+      <description>This is my second post.</description>
+    </item>
+    
+  </channel>
+</rss>
