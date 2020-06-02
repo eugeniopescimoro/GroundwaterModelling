@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Moods on Groundwater modeling</title>
+    <link>http://www.eugeniopescimoro.xyz/moods/</link>
+    <description>Recent content in Moods on Groundwater modeling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 May 2020 00:00:12 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.eugeniopescimoro.xyz/moods/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Happy</title>
+      <link>http://www.eugeniopescimoro.xyz/moods/happy/</link>
+      <pubDate>Tue, 19 May 2020 00:00:12 +0100</pubDate>
+      
+      <guid>http://www.eugeniopescimoro.xyz/moods/happy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Upbeat</title>
+      <link>http://www.eugeniopescimoro.xyz/moods/upbeat/</link>
+      <pubDate>Tue, 19 May 2020 00:00:12 +0100</pubDate>
+      
+      <guid>http://www.eugeniopescimoro.xyz/moods/upbeat/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

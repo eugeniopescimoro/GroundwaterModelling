@@ -3,52 +3,101 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.eugeniopescimoro.xyz/categories/cat2/</loc>
+    <lastmod>2020-05-19T00:00:12+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.eugeniopescimoro.xyz/categories/</loc>
+    <lastmod>2020-05-19T00:00:12+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://www.eugeniopescimoro.xyz/</loc>
     <lastmod>2020-05-19T00:00:12+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.eugeniopescimoro.xyz/moods/happy/</loc>
+    <lastmod>2020-05-19T00:00:12+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.eugeniopescimoro.xyz/moods/</loc>
+    <lastmod>2020-05-19T00:00:12+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://www.eugeniopescimoro.xyz/biography/my-second-post/</loc>
     <lastmod>2020-05-19T00:00:12+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.eugeniopescimoro.xyz/tags/tag1/</loc>
+    <lastmod>2020-05-19T00:00:12+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.eugeniopescimoro.xyz/tags/tag2/</loc>
+    <lastmod>2020-05-19T00:00:12+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.eugeniopescimoro.xyz/tags/</loc>
+    <lastmod>2020-05-19T00:00:12+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.eugeniopescimoro.xyz/moods/upbeat/</loc>
+    <lastmod>2020-05-19T00:00:12+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://www.eugeniopescimoro.xyz/biography/</loc>
     <lastmod>2020-05-18T23:55:15+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://www.eugeniopescimoro.xyz/posts/</loc>
     <lastmod>2020-05-18T22:48:40+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://www.eugeniopescimoro.xyz/posts/my-first-post/</loc>
     <lastmod>2020-05-04T00:14:08+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.eugeniopescimoro.xyz/tags/tag1/</loc>
-    <lastmod>2020-05-04T00:14:08+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.eugeniopescimoro.xyz/tags/tag2/</loc>
-    <lastmod>2020-05-04T00:14:08+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://www.eugeniopescimoro.xyz/tags/tag3/</loc>
     <lastmod>2020-05-04T00:14:08+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.eugeniopescimoro.xyz/tags/</loc>
-    <lastmod>2020-05-04T00:14:08+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.eugeniopescimoro.xyz/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>
