@@ -29,5 +29,15 @@
       <description>This is my first single content file.</description>
     </item>
     
+    <item>
+      <title>Contact</title>
+      <link>http://www.eugeniopescimoro.xyz/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.eugeniopescimoro.xyz/contact/</guid>
+      <description>This is an example of custom shortcode:
+Your Name Email Address An email address is required.  Message   </description>
+    </item>
+    
   </channel>
 </rss>
