@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Eugenio Pescimoro</title>
+    <link>http://www.eugeniopescimoro.xyz/phd/</link>
+    <description>Recent content in Research on Eugenio Pescimoro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 May 2020 23:55:15 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.eugeniopescimoro.xyz/phd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My current field of research</title>
+      <link>http://www.eugeniopescimoro.xyz/phd/research/</link>
+      <pubDate>Tue, 19 May 2020 00:00:12 +0100</pubDate>
+      
+      <guid>http://www.eugeniopescimoro.xyz/phd/research/</guid>
+      <description>Non-fickian transport models.</description>
+    </item>
+    
+  </channel>
+</rss>
