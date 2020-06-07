@@ -26,7 +26,8 @@
       <pubDate>Tue, 19 May 2020 00:00:12 +0100</pubDate>
       
       <guid>http://www.eugeniopescimoro.xyz/engineering/aitec/</guid>
-      <description>This is my experience at AITEC.</description>
+      <description>This is my experience at AITEC.
+  Plan of wooden walls elevation.   </description>
     </item>
     
     <item>
@@ -35,7 +36,8 @@
       <pubDate>Tue, 19 May 2020 00:00:12 +0100</pubDate>
       
       <guid>http://www.eugeniopescimoro.xyz/engineering/isf/</guid>
-      <description>This is my experience in Argentina.</description>
+      <description>This is my experience in Argentina.
+  Water storage project in Colonia Dora, Argentina.   </description>
     </item>
     
     <item>
@@ -44,7 +46,9 @@
       <pubDate>Tue, 19 May 2020 00:00:12 +0100</pubDate>
       
       <guid>http://www.eugeniopescimoro.xyz/phd/research/</guid>
-      <description>Non-fickian transport models.</description>
+      <description>Non-fickian transport models.
+This is an OpenFOAM simulation:
+  </description>
     </item>
     
     <item>
@@ -53,7 +57,8 @@
       <pubDate>Mon, 04 May 2020 00:14:08 +0100</pubDate>
       
       <guid>http://www.eugeniopescimoro.xyz/modeling/deltares/</guid>
-      <description>This is a study for Deltares.</description>
+      <description>This is a study for Deltares.
+  Numerical simulation of a Spanish aquifer realized with iMOD.   </description>
     </item>
     
     <item>
@@ -62,7 +67,8 @@
       <pubDate>Mon, 04 May 2020 00:14:08 +0100</pubDate>
       
       <guid>http://www.eugeniopescimoro.xyz/modeling/ohio/</guid>
-      <description>This is a particle tracking simulation of the flow through the hyporreic zone of a river.</description>
+      <description>This is a particle tracking simulation of the flow through the hyporreic zone of a river.
+  Particle tracking achived through MODPATH.   </description>
     </item>
     
   </channel>

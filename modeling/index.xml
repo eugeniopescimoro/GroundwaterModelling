@@ -17,7 +17,8 @@
       <pubDate>Mon, 04 May 2020 00:14:08 +0100</pubDate>
       
       <guid>http://www.eugeniopescimoro.xyz/modeling/deltares/</guid>
-      <description>This is a study for Deltares.</description>
+      <description>This is a study for Deltares.
+  Numerical simulation of a Spanish aquifer realized with iMOD.   </description>
     </item>
     
     <item>
@@ -26,7 +27,8 @@
       <pubDate>Mon, 04 May 2020 00:14:08 +0100</pubDate>
       
       <guid>http://www.eugeniopescimoro.xyz/modeling/ohio/</guid>
-      <description>This is a particle tracking simulation of the flow through the hyporreic zone of a river.</description>
+      <description>This is a particle tracking simulation of the flow through the hyporreic zone of a river.
+  Particle tracking achived through MODPATH.   </description>
     </item>
     
   </channel>
