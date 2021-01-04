@@ -38,13 +38,6 @@
   </url>
   
   <url>
-    <loc>http://www.eugeniopescimoro.xyz/tags/modeling/</loc>
-    <lastmod>2020-05-19T00:00:12+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://www.eugeniopescimoro.xyz/phd/research/</loc>
     <lastmod>2020-05-19T00:00:12+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -102,6 +95,13 @@
   
   <url>
     <loc>http://www.eugeniopescimoro.xyz/modeling/ohio/</loc>
+    <lastmod>2020-05-04T00:14:08+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.eugeniopescimoro.xyz/tags/modeling/</loc>
     <lastmod>2020-05-04T00:14:08+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
