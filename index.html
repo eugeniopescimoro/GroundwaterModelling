@@ -1,290 +1,89 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>Engineering &amp; modeling | Eugenio Pescimoro</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.69.2" />
-    
-    
-      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
-    
+    <meta charset="UTF-8">
+    <meta name="description" content="Geostatistics, flow and transport OpenFOAM models for groundwater modeling. Python and Matlab scripts for simulation display.">
+    <meta name="author" content="Eugenio Pescimoro" >
+    <meta name="keywords" content="OpenFOAM, Python, Matlab, non-Fickian, transport, groundwater, modeling, engineering, CCS" >
+    <meta name="keyport" content="width=device-width, initial-scale=1.0">
+    <title>Groundwater modeling</title>
 
-    
-    
-      <link href="/dist/css/app.1cb140d8ba31d5b2f1114537dd04802a.css" rel="stylesheet">
-    
+    <!-- Style section -->
+    <!-- Centered headings -->
+    <style> h1 {text-align: center;} </style>
+    <!-- Navigation bar -->
+    <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
 
-    
+    li {
+      float: left;
+    }
 
-    
-      
-    
+    li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
 
-    
-    
-      <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Eugenio Pescimoro" />
-      <link href="/index.xml" rel="feed" type="application/rss+xml" title="Eugenio Pescimoro" />
-      
-    
-    
-    <meta property="og:title" content="Engineering &amp; modeling" />
-<meta property="og:description" content="Civil engineer and numerical modeler" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://www.eugeniopescimoro.xyz/" />
-<meta property="og:updated_time" content="2020-05-19T00:00:12+01:00" />
-<meta itemprop="name" content="Engineering &amp; modeling">
-<meta itemprop="description" content="Civil engineer and numerical modeler"><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Engineering &amp; modeling"/>
-<meta name="twitter:description" content="Civil engineer and numerical modeler"/>
+    li a:hover, .dropdown:hover .dropbtn {
+      background-color: red;
+    }
 
-      
-    
+    li.dropdown {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    </style>
+
   </head>
+  <body style="color: darkblue; background-color: lightblue; font-size:20px;">
 
-  <body class="ma0 avenir bg-near-white production">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </li>
+    </ul>
 
-    
-
-  
-  
-  <header class="cover bg-top" style="background-image: url('http://www.eugeniopescimoro.xyz/images/perm.jpeg');">
-    <div class="bg-black-60">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="http://www.eugeniopescimoro.xyz/" class="f3 fw2 hover-white no-underline white-90 dib">
-      Eugenio Pescimoro
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-        <ul class="pl0 mr3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/bio/" title="Bio page">
-              Bio
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/contact/" title="Contact page">
-              Contact
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/engineering/" title="Engineering page">
-              Engineering
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/modeling/" title="Modeling page">
-              Modeling
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/phd/" title="Research page">
-              Research
-            </a>
-          </li>
-          
-        </ul>
-      
-      
-
-
-
-
-
-
-
-<a href="https://www.linkedin.com/in/eugenio-pescimoro-971288161/" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
-  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-</span></a>
-
-
-
-
-
-
-
-
-    </div>
-  </div>
-</nav>
-
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Engineering &amp; modeling
-        </h1>
-        
-          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
-            Civil engineer and numerical modeler
-          </h2>
-        
-      </div>
-    </div>
-  </header>
-
-
-    <main class="pb7" role="main">
-      
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    <section class="flex-ns flex-wrap justify-around mt5">
-      
-        <div class="relative w-100 w-40-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Contact</span>
-    <h1 class="f3 near-black">
-      <a href="http://www.eugeniopescimoro.xyz/contact/details/" class="link black dim">
-        Details
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Email: eugenio.pescimoro@nottingham.ac.uk
-Skype: eu.genio314
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-40-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Engineering</span>
-    <h1 class="f3 near-black">
-      <a href="http://www.eugeniopescimoro.xyz/engineering/aitec/" class="link black dim">
-        Engineering Planning Firm
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      While at AITEC, I consolidated my designing and technical drawing skills.
-  Plan of wooden walls elevation realized with AutoCAD.   
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-40-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Engineering</span>
-    <h1 class="f3 near-black">
-      <a href="http://www.eugeniopescimoro.xyz/engineering/isf/" class="link black dim">
-        Engineering Without Borders
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      The collaboration with Ingeniería sin Fronteras (Argentina) was developed on different field sites.
-  Water storage project in Colonia Dora, Argentina.   
-    </div>
-  </div>
-</div>
-</div>
-      
-    </section>
-
-<ul class="pagination">
-    
-    <li class="page-item">
-        <a href="/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
-    </li>
-    
-    <li class="page-item disabled">
-    <a  class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-    </li>
-    
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li class="page-item active"><a class="page-link" href="/">1</a></li>
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li class="page-item"><a class="page-link" href="/page/2/">2</a></li>
-    
-    
-    <li class="page-item">
-    <a href="/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
-    </li>
-    
-    <li class="page-item">
-        <a href="/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
-    </li>
-    
-</ul>
-
-<figure>
-    <img src="/images/best4PropTrendMap.png"/> <figcaption>
-            <h4>Best probability trend map</h4>
-        </figcaption>
-</figure>
-
-<p>Need hydrological assessment of existing works? Numerical modeling to support the approval of your project? Consultancy study of aquifer or reservoirs?</p>
-
-  </article>
-
+    <h1 style="color: blue;"> Engineering & modeling </h1>
+    <main style="background-color: green; border: 1px solid black; width: 80%; max-width: 500px;">
+      <p> Website under main renovation.. </p>
     </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://www.eugeniopescimoro.xyz/" >
-    &copy;  Eugenio Pescimoro 2021 
-  </a>
-    <div>
-
-
-
-
-
-
-
-<a href="https://www.linkedin.com/in/eugenio-pescimoro-971288161/" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
-  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-</span></a>
-
-
-
-
-
-
-
-</div>
-  </div>
-</footer>
-
-    
-
-  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
-
-
   </body>
 </html>
