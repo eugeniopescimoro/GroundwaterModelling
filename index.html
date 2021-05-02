@@ -1,32 +1,194 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Geostatistics, flow and transport OpenFOAM models for groundwater modeling. Python and Matlab scripts for simulation display.">
-    <meta name="author" content="Eugenio Pescimoro" >
-    <meta name="keywords" content="OpenFOAM, Python, Matlab, non-Fickian, transport, groundwater, modeling, engineering, CCS" >
-    <meta name="keyport" content="width=device-width, initial-scale=1.0">
-    <title>Groundwater modeling</title>
-    <link rel="stylesheet" type="text/css" href="myStyle.css">
-  </head>
-  <body style="color: darkblue; background-color: lightblue; font-size:20px;">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<body class="w3-content" style="max-width:1300px">
 
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#news">News</a></li>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-        <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>My Logo</h1>
+    </div>
+    <div class="w3-padding-64">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">My Work</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Resume</a>
+      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1>About Me</h1>
+      <img src="images/profilephotoski.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%">
+      <div class="w3-left-align w3-padding-large">
+        <p>Hydraulic engineer by formation, my entire postgraduate education was focused on water. 
+          Profound different working environments shaped and enriched my approach to modelling. 
+          Currently pursuing a doctoral course at the Industrial and Applied Mathematics of the University of Nottingham. 
+          My main focuses are transport in porous media and geostatistics. </p>
+        <p>I speak fluently Italian, English and Spanish. I am learning French.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
+    <div class="w3-padding-64">
+      <h2>My Work</h2>
+      <p>Some of my latest projects.</p>
+    </div>
+    <div class="w3-row">
+      <div class="w3-half">
+        <img src="images/cassoni.jpg" style="width:100%">
+      </div>
+      <div class="w3-half">
+        <img src="images/best4PropTrendMap.png" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <img src="images/perm.jpeg" style="width:100%">
+      </div>
+      <div class="w3-half">
+        <img src="images/cTstp4.jpeg" style="width:100%">
+      </div>
+    </div>
+
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <img src="images/iMOD.png" style="width:100%">
+      </div>
+      <div class="w3-half">
+        <img src="images/pTracking.jpg" style="width:100%">
+      </div>
+    </div><br>
+    <p>Just call me awesome.</p>
+  </div>
+  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
+    <div class="w3-padding-64 w3-center">
+      <h2>Resume</h2>
+      <p>Working Experience</p>
+      <div class="w3-container w3-responsive">
+        <table class="w3-table">
+          <colgroup>
+            <col style="width: 34%;">
+            <col style="width: 33%;">
+            <col style="width: 33%;">
+         </colgroup>
+          <tr>
+            <th>Year</th>
+            <th>Title</th>
+            <th>Where</th>
+          </tr>
+          <tr class="w3-white">
+            <td>Oct. 2018 - March 2019</td>
+            <td>Groundwater modeller</td>
+            <td>Deltares (NL)</td>
+          </tr>
+          <tr>
+            <td>June 2017 - Au. 2017</td>
+            <td>Site engineer</td>
+            <td>Engineering Without Borders (AR)</td>
+          </tr>
+          <tr class="w3-white">
+            <td>Sept. 2016 - March 2017</td>
+            <td>Project engineer</td>
+            <td>AITEC firm planning (IT)</td>
+          </tr>
+        </table>
+      <p>Education</p>
+      <div class="w3-container w3-responsive">
+        <table class="w3-table">
+          <colgroup>
+            <col style="width: 34%;">
+            <col style="width: 33%;">
+            <col style="width: 33%;">
+         </colgroup>
+          <tr>
+            <th>Year</th>
+            <th>Title</th>
+            <th>Where</th>
+          </tr>
+          <tr class="w3-white">
+            <td>Apr. 2019 - Present</td>
+            <td>PhD in Applied Mathematics</td>
+            <td>University of Nottingham (UK)</td>
+          </tr>
+          <tr>
+            <td>Apr. 2017 - Sept. 2018</td>
+            <td>MSc in Environmental Engineering with specialization in water resources</td>
+            <td>Polytechnic University of Cartagena (SP)</td>
+          </tr>
+          <tr class="w3-white">
+            <td>Feb. 2017</td>
+            <td>Professional practice examination for Engineering license</td>
+            <td>Chartered Engineer title (IT)</td>
+          </tr>
+          <tr>
+            <td>Feb. 2016 - May 2016</td>
+            <td>Visiting scholar for Master Thesis Research</td>
+            <td>Ohio State University (USA)</td>
+          </tr>
+          <tr class="w3-white">
+            <td>Jan. 2014 - Oct. 2016</td>
+            <td>MSc in Civil Engineering with specialization in hydraulics</td>
+            <td>Polytechnic University of Torino (IT)</td>
+          </tr>
+          <tr class="w3-hide-medium">
+            <td>Sept. 2010 - Dec. 2013</td>
+            <td>BSc in Civil Engineering</td>
+            <td>University of Trento (IT)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid: Swing By & Contact -->
+<div class="w3-row" id="contact">
+  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Swing By</h1>
+    </div>
+    <div class="w3-padding-64">
+      <p>..for a cup of coffee, or whatever.</p>
+      <p>Nottingham, UK</p>
+      <p>+44 7907488295</p>
+      <p>eugenio.pescimoro@gmail.com</p>
+    </div>
+  </div>
+  <div class="w3-half w3-teal w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-padding-large">
+      <h1>Contact</h1>
+      <p class="w3-opacity">GET IN TOUCH</p>
+      <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Name">
         </div>
-      </li>
-    </ul>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Email">
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Message">
+        </div>
+        <button type="submit" class="w3-button w3-teal w3-right">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
 
-    <h1 style="color: blue;"> Engineering & modeling </h1>
-    <main style="background-color: green; border: 1px solid black; width: 80%; max-width: 500px;">
-      <p> Website under main renovation.. </p>
-    </main>
-  </body>
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16">
+  <p>Powered by Eugenio Pescimoro</p>
+</footer>
+
+</body>
 </html>
